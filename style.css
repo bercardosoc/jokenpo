@@ -1,0 +1,94 @@
+img {
+    width: 350px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+body {
+    width: 100vw;
+}
+h1 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Germania One', cursive;
+}
+h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Germania One', cursive;
+}
+h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Germania One', cursive;
+}
+button {
+    color: black;
+    font-family: 'Germania One', cursive;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    width: 350px;
+}
+
+#pedra, #papel, #tesoura {
+    width: 350px;
+}
+
+#cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+    body {
+        background: #EEEEEE;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Germania One', cursive;
+    }
+    h2 {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Germania One', cursive;
+    }
+    h3 {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Germania One', cursive;
+    }
+    #cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    #pedra, #papel, #tesoura {
+        width: 200px;
+    }
+    button {
+        color: black;
+        font-family: 'Germania One', cursive;
+        font-size: 25px;
+        text-align: center;
+        cursor: pointer;
+        width: 200px;
+    }
+}
