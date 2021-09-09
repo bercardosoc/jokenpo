@@ -7,7 +7,6 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 2.5vh auto;
 }
 #top {
     margin: 5vh auto;
@@ -59,45 +58,24 @@ button {
 }
 
 @media screen and (min-width: 769px) {
+    body {
+        background-color: #FFFFFF ;
+    }
     header {
+        background-repeat: no-repeat;
+        background-position: center center;
         display: flex;
         justify-content: center;
+        height: 50vh;
+        width: 100vw;
     }
-    h1 {
-        margin-top: 5px;
-        text-align: center;
-        font-size: 40px;
-        font-family: 'Germania One', cursive;
+    #header {
+        display: none;
     }
-    h2 {
-        margin-top: 5px;
-        text-align: center;
-        font-size: 25px;
-        font-family: 'Germania One', cursive;
+    button, #pedra, #papel, #tesoura {
+        width: 20vw;
     }
-    h3 {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Germania One', cursive;
-    }
-    #cards {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: row;
-        margin-top: 10px;
-    }
-    #pedra, #papel, #tesoura {
-        width: 200px;
-    }
-    button {
-        color: black;
-        font-family: 'Germania One', cursive;
-        font-size: 25px;
-        text-align: center;
-        cursor: pointer;
-        width: 200px;
+    #bottom img {
+        width: 25vw;
     }
 }
