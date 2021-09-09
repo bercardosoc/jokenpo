@@ -62,6 +62,7 @@ button {
         background-color: #FFFFFF ;
     }
     header {
+        background-image: url("desktopHeader.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         display: flex;
